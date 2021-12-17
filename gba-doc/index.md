@@ -1,1 +1,2 @@
-* [[CPU/arm-table.html]]
+* [[CPU/Encoding]]
+* [[CPU/Bus Interface]]
