@@ -4,12 +4,12 @@
 
 There are four types of cycles, N, S, I, and C. The CPU specifies what the next cycle type is on the bus (i.e. it is piplined one cycle ahead) using two bits. They are as follows:
 
-Cycle Type | nMREQ | SEQ | 
------------|-------|-----|-----
-N          |   0   |  0  | Nonsequential
-S          |   0   |  1  | Sequential 
-I          |   1   |  0  | Internal
-C          |   1   |  1  | Coprocessor register transfer
+| Cycle Type | nMREQ | SEQ |                                |
+| ---------- | ----- | --- | ------------------------------ |
+| N          |   0   |  0  | Nonsequential                  |
+| S          |   0   |  1  | Sequential                     |
+| I          |   1   |  0  | Internal                       |
+| C          |   1   |  1  | Coprocessor register transfer  |
 
 * nMREQ = Not memory request
 	* When low it indicates a memory access will happen the next cycle

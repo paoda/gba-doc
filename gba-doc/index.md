@@ -1,2 +1,3 @@
-* [[CPU/Encoding]]
-* [[CPU/Bus Interface]]
+* [[CPU]]
+	* [[Instruction Encoding]]
+	* [[Bus Interface]]
