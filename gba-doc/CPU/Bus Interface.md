@@ -35,7 +35,7 @@ A 32 bit bus.
 
 During read: Is an input to the CPU. Data must be valid at the end of phase 2.
 
-During write: Is an output from the CPU. Valid data appears during phase 2 of the cycle preceeding the access and remains valid through phase 1 of the actual memory cycle.
+During write: Is an output from the CPU. Valid data appears during phase 1 of the cycle and remains valid through phase 2.
 
 ## Lock signal
 
